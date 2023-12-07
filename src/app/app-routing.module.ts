@@ -4,6 +4,7 @@ import { HomeComponent } from './Components/home/home.component';
 import { AboutComponent } from './Components/about/about.component';
 import { NotFoundComponent } from './Components/not-found/not-found.component';
 import { CardComponent } from './Components/home/card/card.component';
+import { StandAloneDemoComponent } from './Components/stand-alone-demo/stand-alone-demo.component';
 
 const routes: Routes = [
   // default route
@@ -25,6 +26,11 @@ const routes: Routes = [
     component: AboutComponent,
     path: 'about'
   },
+
+  {
+    component: StandAloneDemoComponent,
+    path: 'standalone'
+  }
   
   // wildcard route
   // {

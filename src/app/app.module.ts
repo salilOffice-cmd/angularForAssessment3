@@ -1,3 +1,4 @@
+import { StandAloneDemoComponent } from './Components/stand-alone-demo/stand-alone-demo.component';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -14,11 +15,13 @@ import { CardComponent } from './Components/home/card/card.component';
     HomeComponent,
     AboutComponent,
     NotFoundComponent,
-    CardComponent
+    CardComponent,
+    // StandAloneDemoComponent // gives error 
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    StandAloneDemoComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
